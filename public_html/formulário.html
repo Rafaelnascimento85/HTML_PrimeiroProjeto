@@ -6,12 +6,28 @@
 </head>
 
 <body>
-    <form
-        name="meu_primeiro_formulario"
-        method="post"
-        action="gravaDados.php"
-        enctype="multipart/form-data"
-    >
-    </form>
+    <form 
+    name="Meu primeiro formulário"
+    method="POST"
+    action="gravarDados.php"
+    enctype="multipart/form-data"
+>
+    <label>Dias da semana:</label>
+    <select name="dias_da_semana">
+        <option value="segunda">Segunda-feira</option>
+        <option value="terça">Terça-feria</option>
+        <option value="quarta">Quarta-feria</option>
+        <option value="quinta">Quinta-feria</option>
+        <option value="sexta">Sexta-feria</option>
+        <option value="sabado">Sábado</option>
+        <option value="domingo">Domingo</option>
+    </select>
+    <br>
+    <label>Contato:</label>
+    <textarea placeholder="Digite sua mensagem"></textarea>
+    <br>
+    <label>Enviar:</label>
+    <button>Clique aqui</button>
+</form>
 </body>
 </html>
